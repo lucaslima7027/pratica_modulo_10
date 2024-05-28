@@ -90,7 +90,8 @@ const ListarTarefa = () => {
         /> 
         <CardContent>
             <TableContainer component={Paper}>
-            <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
+            <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table"
+                    bgcolor="#a0a0a0">
                 <TableHead>
                 <TableRow>
                     <TableCell>#</TableCell>
@@ -134,8 +135,8 @@ const ListarTarefa = () => {
             </TableContainer>
         </CardContent>
         <CardActions>
-            <Button size="small" variant="contained" onClick={handleOpen}>Criar Tarefa</Button>
-            <Button size="small" variant="outlined">Cancelar</Button>
+            <Button size="large" variant="contained" onClick={handleOpen} color="success">Criar Tarefa</Button>
+            <Button size="large" variant="contained" color="error">Cancelar</Button>
       </CardActions> 
     </Card>
     <div>

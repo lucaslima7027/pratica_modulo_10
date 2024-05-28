@@ -25,6 +25,7 @@ function Header() {
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Gerenciamento de Projetos
+              
             </Typography>
           </Toolbar>
         </AppBar>
