@@ -71,8 +71,7 @@ const EditarTarefa = ({handleCloseEditar, idTarefaSelecionada, tarefas, tarefa, 
     <Grid container spacing={2}>
       <Card sx={style}>
         <CardHeader
-          title="Tarefas"
-          subheader="Edição de Tarefas"
+          title="Edição de Tarefas"
         /> 
         <CardContent sx={{
           width: '95%',

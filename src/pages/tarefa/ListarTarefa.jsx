@@ -86,13 +86,13 @@ const ListarTarefa = () => {
     <Card>
         <CardHeader
           title="Tarefas"
-          subheader="Listagem de Tarefas"
         /> 
         <CardContent>
             <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table"
-                    bgcolor="#a0a0a0">
-                <TableHead>
+                    bgcolor="#96a0aa">
+                <TableHead
+                bgcolor = "#5c6671">
                 <TableRow>
                     <TableCell>#</TableCell>
                     <TableCell>Título</TableCell>
